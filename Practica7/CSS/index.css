@@ -1,0 +1,271 @@
+nav {
+    display: grid;
+    grid-template-columns: 10% 90%;
+    padding: 5px;
+}
+
+.for {
+    text-align: right;
+}
+
+header > div {
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+
+h1 {
+    font-size: 60px;
+    padding: 10px 0 10px 0;
+}
+
+* {
+    margin: 0;
+}
+
+header nav div img {
+    width: 1.5em;
+}
+@media screen and (min-width: 1000px) {
+    main {
+        display: grid;
+        grid-template-columns: 20% 60% 20%;
+    }
+}
+
+@media screen and (min-width: 590px) {
+    .news-conteiner {
+        display: grid;
+        grid-template-columns: 20% 80%;
+        padding-top: 10px;
+        border-bottom: 1px solid #d9d9d9;
+    }
+}
+
+
+
+.new1 {
+    border-bottom: 1px solid #d9d9d9;
+    border-right: 1px solid #d9d9d9;
+    padding: 10px;
+}
+
+.new2 {
+    border-right: 1px solid #d9d9d9;
+    padding: 10px;
+}
+
+.new1 h2 {
+    padding-bottom: 0.5em;
+    text-decoration: none;
+}
+
+.new1 h2:hover {
+    text-decoration: underline;
+}
+
+.new2 h2 {
+    padding-bottom: 0.5em;
+}
+
+.new2 h2:hover {
+    text-decoration: underline;
+}
+
+.new3 {
+    padding: 0 1em 0 1em;
+}
+
+.new3 img {
+    width: 100%;
+    height: 70%;
+}
+
+.new3 h2:hover {
+    text-decoration: underline;
+}
+
+h1 a {
+    text-decoration: none;
+    color: white;
+}
+
+.scroll-container {
+    width: 100%;
+    overflow-x: scroll;
+    white-space: nowrap; 
+    padding-top: 20px;
+}
+
+.new-scroll {
+    display: inline-block;
+    border: 2px solid black;
+    text-align: center;
+    margin: 0;
+}
+
+.new-scroll img {
+    width: 18em;
+}
+
+.new-scroll p {
+    text-align: left;
+    padding: 10px;
+}
+
+.bg1 {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.5)), url(../images/jeep.webp);
+    background-size: cover;
+    background-position: center;
+    height: 21em;
+    display: flex;
+    flex-direction: column;
+}
+
+.bg2 {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.5)), url(../images/arenal.webp);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    height: 21em;
+}
+
+.bg3 {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.5)), url(../images/audi.webp);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    height: 21em;
+}
+
+.bg4 {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.5)), url(../images/nano.webp);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    height: 21em;
+}
+
+.bg1 h3 {
+    color: white;
+    margin-top: auto;
+    font-size: 2em;
+    text-align: center;
+}
+
+.bg2 h3 {
+    color: white;
+    margin-top: auto;
+    font-size: 2em;
+    text-align: center;
+}
+
+.bg3 h3 {
+    color: white;
+    margin-top: auto;
+    font-size: 2em;
+    text-align: center;
+}
+
+.bg4 h3 {
+    color: white;
+    margin-top: auto;
+    font-size: 2em;
+    text-align: center;
+}
+
+.bg1 p {
+    color: white;
+    padding: 0.5em;
+    text-align: center;
+}
+
+.bg2 p {
+    color: white;
+    padding: 0.5em;
+    text-align: center;
+}
+
+.bg3 p {
+    color: white;
+    padding: 0.5em;
+    text-align: center;
+}
+
+.bg4 p {
+    color: white;
+    padding: 0.5em;
+    text-align: center;
+}
+
+.bg1 h3:hover {
+    text-decoration: underline;
+}
+
+.bg2 h3:hover {
+    text-decoration: underline;
+}
+
+.bg3 h3:hover {
+    text-decoration: underline;
+}
+
+.bg4 h3:hover {
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 700px){
+    .bgs {
+        display: grid;
+        grid-template-columns: 22% 22% 22% 22%;
+        justify-content: space-between;
+        margin-top: 1em;
+    }
+}
+
+@media screen and (max-width: 700px){
+
+    .bgs{
+        padding-top: 1em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bg1 {
+        width: 60%;
+        margin-bottom: 1em;
+    }
+
+    .bg2 {
+        width: 60%;
+        margin-bottom: 1em;
+    }
+
+    .bg3 {
+        width: 60%;
+        margin-bottom: 1em;
+    }
+
+    .bg4 {
+        width: 60%;
+    }
+}
+
+
+
+footer {
+    background-color: black;
+    padding: 1em 0;
+    text-align: center;
+    margin-top: 1em;
+}
+
+footer p {
+    margin: 0;
+    color: white;
+}
