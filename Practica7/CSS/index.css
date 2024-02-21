@@ -1,32 +1,39 @@
+/*Barra de navegación*/
 nav {
     display: grid;
     grid-template-columns: 10% 90%;
     padding: 5px;
 }
 
+/*Alineación de elementos de la barra de navegación a la derecha*/
 .for {
     text-align: right;
 }
 
+/*Color de fondo y de texto del header*/
 header > div {
     background-color: black;
     color: white;
     text-align: center;
-
 }
 
+/*Tamaño del Título*/
 h1 {
     font-size: 60px;
     padding: 10px 0 10px 0;
 }
 
+/*Quitar margen*/
 * {
     margin: 0;
 }
 
+/*Ancho de la imagen*/
 header nav div img {
     width: 1.5em;
 }
+
+/*De 1000px para arriba se aplica grid*/
 @media screen and (min-width: 1000px) {
     main {
         display: grid;
@@ -34,6 +41,7 @@ header nav div img {
     }
 }
 
+/*De 590px para arriba se aplica grid en el contenedor de noticias*/
 @media screen and (min-width: 590px) {
     .news-conteiner {
         display: grid;
@@ -43,54 +51,63 @@ header nav div img {
     }
 }
 
-
-
+/*Bordes y espaciado de la noticia*/
 .new1 {
     border-bottom: 1px solid #d9d9d9;
     border-right: 1px solid #d9d9d9;
     padding: 10px;
 }
 
+/*Bordes y espaciado de la noticia*/
 .new2 {
     border-right: 1px solid #d9d9d9;
     padding: 10px;
 }
 
+/*Espaciado*/
 .new1 h2 {
     padding-bottom: 0.5em;
     text-decoration: none;
 }
 
+/*Hover del texto*/
 .new1 h2:hover {
     text-decoration: underline;
 }
 
+/*Espaciado*/
 .new2 h2 {
     padding-bottom: 0.5em;
 }
 
+/*Hover del texto*/
 .new2 h2:hover {
     text-decoration: underline;
 }
 
+/*Espaciado de la noticia*/
 .new3 {
     padding: 0 1em 0 1em;
 }
 
+/*Tamaño de la imagen*/
 .new3 img {
     width: 100%;
     height: 70%;
 }
 
+/*Hover del texto*/
 .new3 h2:hover {
     text-decoration: underline;
 }
 
+/*Quitando el enlace y dando color*/
 h1 a {
     text-decoration: none;
     color: white;
 }
 
+/*Contenedor con scroll horizontal*/
 .scroll-container {
     width: 100%;
     overflow-x: scroll;
@@ -98,6 +115,7 @@ h1 a {
     padding-top: 20px;
 }
 
+/*Noticia del scroll*/
 .new-scroll {
     display: inline-block;
     border: 2px solid black;
@@ -105,15 +123,18 @@ h1 a {
     margin: 0;
 }
 
+/*Imagen de la noticia*/
 .new-scroll img {
     width: 18em;
 }
 
+/*Texto de la noticia*/
 .new-scroll p {
     text-align: left;
     padding: 10px;
 }
 
+/*Tamaño y centrado de la imagen de fondo*/
 .bg1 {
     background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.5)), url(../images/jeep.webp);
     background-size: cover;
@@ -123,6 +144,7 @@ h1 a {
     flex-direction: column;
 }
 
+/*Tamaño y centrado de la imagen de fondo*/
 .bg2 {
     background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.5)), url(../images/arenal.webp);
     background-size: cover;
@@ -132,6 +154,7 @@ h1 a {
     height: 21em;
 }
 
+/*Tamaño y centrado de la imagen de fondo*/
 .bg3 {
     background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.5)), url(../images/audi.webp);
     background-size: cover;
@@ -141,6 +164,7 @@ h1 a {
     height: 21em;
 }
 
+/*Tamaño y centrado de la imagen de fondo*/
 .bg4 {
     background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.5)), url(../images/nano.webp);
     background-size: cover;
@@ -150,6 +174,7 @@ h1 a {
     height: 21em;
 }
 
+/*Tamaño, color y margen del titulo*/
 .bg1 h3 {
     color: white;
     margin-top: auto;
@@ -157,6 +182,7 @@ h1 a {
     text-align: center;
 }
 
+/*Tamaño, color y margen del titulo*/
 .bg2 h3 {
     color: white;
     margin-top: auto;
@@ -164,6 +190,7 @@ h1 a {
     text-align: center;
 }
 
+/*Tamaño, color y margen del titulo*/
 .bg3 h3 {
     color: white;
     margin-top: auto;
@@ -171,6 +198,7 @@ h1 a {
     text-align: center;
 }
 
+/*Tamaño, color y margen del titulo*/
 .bg4 h3 {
     color: white;
     margin-top: auto;
@@ -178,46 +206,55 @@ h1 a {
     text-align: center;
 }
 
+/*Color y alineación del texto*/
 .bg1 p {
     color: white;
     padding: 0.5em;
     text-align: center;
 }
 
+/*Color y alineación del texto*/
 .bg2 p {
     color: white;
     padding: 0.5em;
     text-align: center;
 }
 
+/*Color y alineación del texto*/
 .bg3 p {
     color: white;
     padding: 0.5em;
     text-align: center;
 }
 
+/*Color y alineación del texto*/
 .bg4 p {
     color: white;
     padding: 0.5em;
     text-align: center;
 }
 
+/*Hover del titulo*/
 .bg1 h3:hover {
     text-decoration: underline;
 }
 
+/*Hover del titulo*/
 .bg2 h3:hover {
     text-decoration: underline;
 }
 
+/*Hover del titulo*/
 .bg3 h3:hover {
     text-decoration: underline;
 }
 
+/*Hover del titulo*/
 .bg4 h3:hover {
     text-decoration: underline;
 }
 
+/*De 700px para arriba se palica grid y el margen*/
 @media screen and (min-width: 700px){
     .bgs {
         display: grid;
@@ -227,6 +264,7 @@ h1 a {
     }
 }
 
+/*De 700px para abajo se aplica flex*/
 @media screen and (max-width: 700px){
 
     .bgs{
@@ -236,28 +274,31 @@ h1 a {
         align-items: center;
     }
 
+/*Ancho y margen del fondo*/
     .bg1 {
         width: 60%;
         margin-bottom: 1em;
     }
 
+/*Ancho y margen del fondo*/
     .bg2 {
         width: 60%;
         margin-bottom: 1em;
     }
 
+/*Ancho y margen del fondo*/
     .bg3 {
         width: 60%;
         margin-bottom: 1em;
     }
 
+/*Ancho y margen del fondo*/
     .bg4 {
         width: 60%;
     }
 }
 
-
-
+/*Color del footer y alineación del texto*/
 footer {
     background-color: black;
     padding: 1em 0;
@@ -265,6 +306,7 @@ footer {
     margin-top: 1em;
 }
 
+/*Color del texto del footer*/
 footer p {
     margin: 0;
     color: white;
